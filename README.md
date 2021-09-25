@@ -9,7 +9,7 @@ Typically, a neuron computes the weighted average of its input, and this sum is 
 
 
 ![image](https://user-images.githubusercontent.com/52544352/134753298-ecdeb7d3-067f-4903-b423-ee1ee0498d62.png)
-
+Architechture of a Single Neuron
 
 ## 2. What is the use of the learning rate?
 Learning rate is a configurable hyperparameter used in the training of neural networks that has a small positive value, often in the range between 0.0 and 1.0.
