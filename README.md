@@ -8,7 +8,7 @@ Within a neural network, a neuron (or perceptron) is an elementary unit of stora
 Typically, a neuron computes the weighted average of its input, and this sum is passed through a nonlinear function, often called activation function, such as the sigmoid or tan h or ReLU. The output of the neuron can then be sent as input to the neurons of another layer, which could repeat the same computation (weighted sum of the input and transformation with activation function).
 
 
-![image](https://user-images.githubusercontent.com/52544352/134753298-ecdeb7d3-067f-4903-b423-ee1ee0498d62.png)
+![image](https://user-images.githubusercontent.com/52544352/134753298-ecdeb7d3-067f-4903-b423-ee1ee0498d62.png) <br />
 Architechture of a Single Neuron
 
 ## 2. What is the use of the learning rate?
@@ -40,3 +40,9 @@ To minimize our cost function we continuosly change the weights and biases to ge
 
 That’s when the chain rule comes into play, when we need the derivative of an expression composed of nested subexpressions.The chain rule is conceptually a divide and conquer strategy that breaks complicated expressions into subexpressions whose derivatives are easier to compute. Its power derives from the fact that we can process each simple subexpression in isolation yet still combine the intermediate results to get the correct overall result.
 
+![image](https://user-images.githubusercontent.com/23020975/134756464-c5d421d3-5051-478c-bf15-419bb2f9ae8f.png) <br />
+In its simplest form these are the step - 
+1. Introduce intermediate variables for nested subexpressions and subexpressions for both binary and unary operators. This step normalizes all equations to single operators or function applications.
+2. Compute derivatives of the intermediate variables with respect to their parameters.
+3. Combine all derivatives of intermediate variables by multiplying them together to get the overall result.
+4. Substitute intermediate variables back in if any are referenced in the derivative equation.
