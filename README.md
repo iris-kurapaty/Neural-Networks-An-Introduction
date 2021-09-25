@@ -36,4 +36,7 @@ Loss is a prediction error of Neural Net. The differnce between the output of th
 In simple words, the Loss is used to calculate the gradients. And gradients are used to update the weights of the Neural Net. This is how a Neural Net is trained.
 
 ## 5. What is the "chain rule" in gradient flow?
+To minimize our cost function we continuosly change the weights and biases to get that combination of values that give us our minimum cost function. Mathematically we do that using the concept of derivatives. We cannot take complex equations as is and simply find its derivative, we break it down into smaller parts and use derivative properties to enable us to compute it easily. 
+
+That’s when the chain rule comes into play, when we need the derivative of an expression composed of nested subexpressions.The chain rule is conceptually a divide and conquer strategy that breaks complicated expressions into subexpressions whose derivatives are easier to compute. Its power derives from the fact that we can process each simple subexpression in isolation yet still combine the intermediate results to get the correct overall result.
 
