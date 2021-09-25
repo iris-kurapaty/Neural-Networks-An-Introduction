@@ -24,8 +24,8 @@ The challenge of training deep learning neural networks involves carefully selec
 Each time, a neural network is initialized with a different set of weights, resulting in a different starting point for the optimization process, and potentially resulting in a different final set of weights with different performance characteristics. Weights can be initialised in a number of ways. 
 1.	Zero Initialization (unsuccessful approach) - We initialize all weights to zero
 2.	Random Initialization - We initializes all weights to a random value
-  a.	Random Values picked from a small range of numbers. for example, random values picked from the range [-0.3, 0.3]
-  b.	Random Values picked from a distribution like Normal distribution or Uniform distribution.
+ - a.	Random Values picked from a small range of numbers. for example, random values picked from the range [-0.3, 0.3]
+ - b.	Random Values picked from a distribution like Normal distribution or Uniform distribution.
 3.	Xavier initialization  -initializes the weights in your network by drawing them from a distribution with zero mean and a specific variance
 4.	He-et-al initialization - Similar to Xavier initialization, with the factor multiplied by two
 
